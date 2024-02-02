@@ -30,7 +30,7 @@ Achieve your MVP with time to spare? Try aiming for some stretch goals. (The fol
 
 ## The Presentation
 
-Present your app to your cohort. Be sure to show it's functionality, including both responsive sizes. (Chrome Dev Tools' _Device Toolbar_ is helpul for this.)
+You will present your app to your cohort. Be sure to show it's functionality, including both responsive sizes.
 
 <br>
 
@@ -97,9 +97,9 @@ Your ReadMe **must** contain:
 
 ### What does project week look like?
 
-All students will be able to work independelty on this project. You must attend class each day and check in with instructors so you can be connted as present. But, you can work in any available space on campus.
+All students will be able to work independelty on this project. You must attend class each day and check in with instructors so you can be counted as present. But, you can work in any available space on campus.
 
-Instructors will be available for assistance all day. Every morning and evening, students should plan and think through what you need to meet MVP goals. As the week progresses, instructors may go around routinely to see what "percent of MVP" you are at with your project.
+Instructors will be available for assistance all day. Every morning and/or evening, you should plan and think through what you need to meet MVP goals and plan accordingly. As the week progresses, instructors may go around routinely to see what "percent of MVP" you are at with your project.
 
 ## Incomplete Projects
 Incomplete projects will be given an extension. An instructor will follow up with you to discuss the details of the resubmission. **Note that you are allowed one extension on only one of the four projects.**
