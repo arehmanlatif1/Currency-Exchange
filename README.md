@@ -110,3 +110,4 @@ Incomplete projects will be given an extension. An instructor will follow up wit
 
 Here is a good list of [Free APIs](https://github.com/toddmotto/public-apis). 
    - Not all APIs on this list are created equal, and some may not work anymore, but there are many that are good. Take some time to parse through the topics that interest you and explore the documentation on each API. (Bad documentation is a 🚩)
+   - This list is also *not* exhaustive. Feel free to search for other topics as well.
