@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgb(232, 226, 226), rgb(113, 178, 208), rgb(74, 130, 220), rgb(38, 44, 109));
+    
+}
+
+.poor-story-regular {
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margir: 50px;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+h1 {
+    padding: 30px;
+    margin: 2px;
+}
+label {
+    display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+
+p {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: 30px;
+}
+form {
+    width: 300px;
+}
+.input {
+    display:flex ;
+    justify-content: center;
+}
+
+/* body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgb(232, 226, 226), rgb(113, 178, 208), rgb(74, 130, 220), rgb(38, 44, 109));
+    
+}
+
+.poor-story-regular {
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container {
+    text-align: center;
+    max-height: 100px;
+} */
