@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Calculator</title>
+    <title>Document</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="poor-story-regular">
     <div class="container">
-        <h1>Temperature Calculator</h1> 
-        <div class="input">
-            <form id ="form">
-                <p>
-                    <label for="input-latitude"bu>Enter Latitude</label>
-                    <input type="text" id="input-latitude" placeholder="e.g..,">
-                    <label for="input-longitude"bu>Enter Longitude</label>
-                    <input type="text" id="input-longitude" placeholder="e.g..,">
-                    <label for="Select Unit">Select Unit</label>
-                        <select id="select-unit">
-                            <option value="celsius">Celsius</option>
-                            <option value="fahrenhelt">Fahrenhelt</option>
-                        </select>
-                </p>
-                <button class="result-button ">Get Result</button>
-            </form>
-        </div>
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="100" type="text"></input>
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                   <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/shiny/64.png" />
+                        <select value="from">
 
+                            <option value="USD">USD</option>
+                            <option value="PAK" selected>PAK</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AUD">AUD</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/PK/shiny/64.png" />
+                    <select value="To">
+
+                        <option value="USD">USD</option>
+                        <option value="PAK">PAK</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AUD">AUD</option> 
+                    </select>
+                </div>
+            </div>
+            </div>
+            <div class="msg">1USD = 260PK</div>
+            <button>Get Exchange Rate</button>
+        </form>
     </div>
-</div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
