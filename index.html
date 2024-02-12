@@ -6,23 +6,26 @@
     <title>Document</title>
     <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
-    <script src="codes.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="protest-revolution-regular"></div>
     <div class="container">
         <h2>Currency Converter</h2>
         <form>
             <div class="amount">
                 <p>Enter Amount</p>
-                <input value="100" type="text"></input>
+                <input value="1" type="text"></input>
             </div>
             <div class="dropdown">
                 <div class="from">
                    <p>From</p>
                     <div class="select-container">
-                        <img src="https://flagsapi.com/PK/shiny/64.png" />
-                        <select value="from">
+                        <img src="https://flagsapi.com/US/shiny/64.png" />
+                        <select name="from">
 
                             
                         </select>
@@ -32,17 +35,17 @@
             <div class="to">
                 <p>To</p>
                 <div class="select-container">
-                    <img src="https://flagsapi.com/US/shiny/64.png" />
-                    <select value="To">
-
+                    <img src="https://flagsapi.com/PK/shiny/64.png" />
+                    <select name="To">
                     </select>
                 </div>
             </div>
             </div>
-            <div class="msg">1USD = 270PK</div>
+            <div class="msg">1USD = 270PKR</div>
             <button>Get Exchange Rate</button>
         </form>
     </div>
+    <script src="codes.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
