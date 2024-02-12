@@ -23,14 +23,6 @@ select.addEventListener("change", (event) => {
     updateFlag(event.target);
 
 });
-    const updateFlag = (element) => {
-        let currCode = element.value;
-        let countryCode = countryList[currCode];
-        let newsrc = `https://flagsapi.com/${countryCode}/shiny/64.png`;
-        let img = element.parentElement.querySelector("img");
-        img.src = newsrc;
-
-    };
 
 }
 btn.addEventListener("click", (event) => {

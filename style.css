@@ -29,9 +29,9 @@ body {
         background-position: center center;
         background-attachment: fixed;
         background-repeat: no-repeat; background-size: cover;
-        background-image: url(images/istockphoto-1357752804-1024x1024.jpg);
+        background-image: url(images/dollar-banknotes-frame.jpg);
         grid-column-start: auto;
-        color: rgb(120, 15, 46);
+        color: rgb(205, 226, 111);
         font-size: 1rem;
         font-family: fantasy;
 
@@ -42,7 +42,7 @@ body {
     width: 30vh;
     flex-direction: column;
     font-size: 2rem;
-    background: blue;
+    background: rgb(255, 255, 255);
 
   }
 }
