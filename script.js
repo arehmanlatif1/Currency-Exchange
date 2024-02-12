@@ -13,7 +13,7 @@ for (let select of dropdowns) {
       newOption.value = currCode;
       if (select.name === "from" && currCode === "USD") {
         newOption.selected = "selected";
-      } else if (select.name === "to" && currCode === "INR") {
+      } else if (select.name === "to" && currCode === "PKR") {
         newOption.selected = "selected";
       }
       select.append(newOption);
@@ -41,14 +41,27 @@ btn.addEventListener("click", async (event) => {
     amount.value = "1";
   }
  // console.log(fromCurr.value, toCode.value);
- const URL = '${baseUrl} / ${fromCurr.value.toLowerCase()} / ${toCurr.value.toLowerCase()}.json';
- let response = await fetch(URL);
+ const URL = `${baseUrl}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+  let response = await fetch(URL);
  let data = await response.json();
  let rate = data[toCurr.value.toLowerCase()];
 
  let finalAmount = amountValue * rate;
  msg.innerText = `${amountValue} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 
+
 })
 
+const updateFlag = (element) => {
+  let currCode = element.value;
+  let countryCode = countryList[currCode];
+  let newSrc = `https://flagsapi.com/${countryCode}/flat/64.png`;
+  let img = element.parentElement.querySelector("img");
+  img.src = newSrc;
+}
+
+btn.addEventListener("click", (event) => {
+  event.preventDefault();
+  updateExchangeRate();
+})
 
