@@ -25,11 +25,6 @@ select.addEventListener("change", (event) => {
 });
 
 }
-btn.addEventListener("click", (event) => {
-  event.preventDefault();
-  updateExchangeRate();
-})
-
 
   const updateExchangeRate = async () => {
   let amount = document.querySelector(".amount input");
